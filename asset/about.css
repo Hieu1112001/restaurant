@@ -1,0 +1,254 @@
+/* dùng cuhung */
+.bottom{
+    margin-bottom:15px
+}
+
+.color{
+    color: rgb(155,155,155)
+}
+
+.family{
+    font-family: 'monica-ext-font_YIBBBFG';
+}
+
+.center{
+    align-content: center;
+    /* text-align: left; */
+}
+
+.size{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+/*  */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 50px;
+}
+
+.about-content{
+    text-align: center;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.about .about-content:nth-child(2){
+    background-color: #150d0d;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    width: 400px;
+}
+
+.about-time{
+    display: flex;
+}
+
+.about-time p{
+    width: fit-content;     
+}
+
+.about-content h4{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+    color: rgb(211,169,113);
+    font-size: 25px;
+}
+
+.about-content h1{
+    /* padding: 20px; */
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+.about-content p{
+    width: 346px;
+    text-align: center;
+}
+
+.about-content button{
+    float: left;
+    cursor: pointer;
+    padding: 13px 40px;
+    border: none;
+    border-radius: 3px;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: rgb(211,169,113);
+    
+}
+
+.about-content button:hover{
+    background-color: rgb(90, 53, 4);
+}
+
+
+.about-slide{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 80px;
+}
+
+.about-slide img{
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    filter: brightness(50%);
+}
+
+.about-slide-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.about-slide-text p{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.about-slide-text h1{
+    text-transform: capitalize;
+    font-size: 50px;
+}
+
+
+
+.about-info{
+    display: flex;
+    justify-content: center;
+}
+
+.about-info-content{
+    text-align: center;
+    align-content: center;
+}
+
+.about-info-content img{
+    margin-bottom: 10px;
+}
+
+.about-info-text{
+    text-align: center;
+    width: 400px;
+}
+
+.about-info-text p{
+    color: rgb(155,155,155);
+}
+
+.about-info-text h3{
+    text-transform: capitalize;
+    font-weight: 300;
+    font-family: 'monica-ext-font_YIBBBFG';
+
+}
+
+
+.guestbook{
+   position: relative;
+}
+
+.guestbook > img{
+    width: 100%;
+    height: 490px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.guestbook-content{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.guestbook-content h4{
+    color: rgb(211,169,113);
+    font-size: 25px;
+}
+
+.guestbook-content h1{
+    color: #fff;
+}
+
+.guestbook-info{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
+.guestbook-info-content{
+    background-color: #fff;
+    width: 398px;
+    height: 272px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 64px;
+    padding-right: 64px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.guestbook-info-content p{
+    margin-bottom: 30px;
+}
+
+.guestbook-info-content img{
+    border-radius: 50%;
+    width: 20%;
+
+}
+/* .about-picture{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.about-picture-content{
+    padding: 20px;
+    position: relative;
+}
+.about-picture-content img{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 4px;
+    filter: brightness(0.5);
+    object-fit: cover;
+    height: 400px;
+}
+
+.about-picture-content p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+} */
+
